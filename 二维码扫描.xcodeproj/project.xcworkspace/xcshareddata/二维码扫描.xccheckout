@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AE066D91-A752-452A-8BB9-C0DADA8A34F4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>二维码扫描</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F825C82CDC3AA934B29B7CE6436F2359302EF08</key>
+		<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
+		<key>84823AB0-3232-408F-A6AF-6D54AC617290</key>
+		<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>二维码扫描.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F825C82CDC3AA934B29B7CE6436F2359302EF08</key>
+		<string>../..</string>
+		<key>84823AB0-3232-408F-A6AF-6D54AC617290</key>
+		<string>../.. 屏幕适配 3.5inch 和 4 inch</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F825C82CDC3AA934B29B7CE6436F2359302EF08</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F825C82CDC3AA934B29B7CE6436F2359302EF08</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QrCodeDemo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84823AB0-3232-408F-A6AF-6D54AC617290</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QrCodeDemo 屏幕适配 3.5inch 和 4 inch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
