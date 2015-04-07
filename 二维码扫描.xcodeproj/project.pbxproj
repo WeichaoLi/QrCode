@@ -28,7 +28,6 @@
 		1B8184A719B45945002270DD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8184A519B45945002270DD /* AddressBookUI.framework */; };
 		1B8184AA19B47741002270DD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8184A919B47741002270DD /* MessageUI.framework */; };
 		1B98861E1A429CC80012C873 /* CheckInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885A61A429CC80012C873 /* CheckInfoViewController.m */; };
-		1B98861F1A429CC80012C873 /* CheckInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9885A71A429CC80012C873 /* CheckInfoViewController.xib */; };
 		1B9886201A429CC80012C873 /* CodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885A91A429CC80012C873 /* CodeType.m */; };
 		1B9886211A429CC80012C873 /* DataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885AB1A429CC80012C873 /* DataCell.m */; };
 		1B9886221A429CC80012C873 /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9885AC1A429CC80012C873 /* DataCell.xib */; };
@@ -81,7 +80,6 @@
 		1B9886511A429CC80012C873 /* LWCDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885DF1A429CC80012C873 /* LWCDataViewController.m */; };
 		1B9886521A429CC80012C873 /* LWCDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9885E01A429CC80012C873 /* LWCDataViewController.xib */; };
 		1B9886531A429CC80012C873 /* LWCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885E21A429CC80012C873 /* LWCViewController.m */; };
-		1B9886541A429CC80012C873 /* LWCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9885E31A429CC80012C873 /* LWCViewController.xib */; };
 		1B9886551A429CC80012C873 /* NSString+Separate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885E51A429CC80012C873 /* NSString+Separate.m */; };
 		1B9886561A429CC80012C873 /* TransitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885E71A429CC80012C873 /* TransitData.m */; };
 		1B9886571A429CC80012C873 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B9885EA1A429CC80012C873 /* bitstream.c */; };
@@ -101,6 +99,7 @@
 		1B9886651A429CC80012C873 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9886191A429CC80012C873 /* zbar-samples.png */; };
 		1B9886661A429CC80012C873 /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B98861B1A429CC80012C873 /* ZYQAssetPicker.Bundle */; };
 		1B9886671A429CC80012C873 /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B98861D1A429CC80012C873 /* ZYQAssetPickerController.m */; };
+		1BD48FCC1AD3806A007D6350 /* QrCodeGenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD48FCB1AD3806A007D6350 /* QrCodeGenerateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,7 +139,6 @@
 		1B8184A919B47741002270DD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1B9885A51A429CC80012C873 /* CheckInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInfoViewController.h; sourceTree = "<group>"; };
 		1B9885A61A429CC80012C873 /* CheckInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInfoViewController.m; sourceTree = "<group>"; };
-		1B9885A71A429CC80012C873 /* CheckInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckInfoViewController.xib; sourceTree = "<group>"; };
 		1B9885A81A429CC80012C873 /* CodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeType.h; sourceTree = "<group>"; };
 		1B9885A91A429CC80012C873 /* CodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeType.m; sourceTree = "<group>"; };
 		1B9885AA1A429CC80012C873 /* DataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCell.h; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 		1B9885E01A429CC80012C873 /* LWCDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWCDataViewController.xib; sourceTree = "<group>"; };
 		1B9885E11A429CC80012C873 /* LWCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCViewController.h; sourceTree = "<group>"; };
 		1B9885E21A429CC80012C873 /* LWCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCViewController.m; sourceTree = "<group>"; };
-		1B9885E31A429CC80012C873 /* LWCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWCViewController.xib; sourceTree = "<group>"; };
 		1B9885E41A429CC80012C873 /* NSString+Separate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Separate.h"; sourceTree = "<group>"; };
 		1B9885E51A429CC80012C873 /* NSString+Separate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Separate.m"; sourceTree = "<group>"; };
 		1B9885E61A429CC80012C873 /* TransitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitData.h; sourceTree = "<group>"; };
@@ -249,6 +246,9 @@
 		1B98861B1A429CC80012C873 /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
 		1B98861C1A429CC80012C873 /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
 		1B98861D1A429CC80012C873 /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		1BD48FC91AD375BF007D6350 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		1BD48FCA1AD3806A007D6350 /* QrCodeGenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeGenerateViewController.h; sourceTree = "<group>"; };
+		1BD48FCB1AD3806A007D6350 /* QrCodeGenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeGenerateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,7 +368,6 @@
 			children = (
 				1B9885A51A429CC80012C873 /* CheckInfoViewController.h */,
 				1B9885A61A429CC80012C873 /* CheckInfoViewController.m */,
-				1B9885A71A429CC80012C873 /* CheckInfoViewController.xib */,
 				1B9885A81A429CC80012C873 /* CodeType.h */,
 				1B9885A91A429CC80012C873 /* CodeType.m */,
 				1B9885AA1A429CC80012C873 /* DataCell.h */,
@@ -376,13 +375,15 @@
 				1B9885AC1A429CC80012C873 /* DataCell.xib */,
 				1B9885AD1A429CC80012C873 /* HeaderView.h */,
 				1B9885AE1A429CC80012C873 /* HeaderView.m */,
+				1BD48FC81AD375BF007D6350 /* Utility */,
 				1B9885AF1A429CC80012C873 /* image */,
 				1B9885DE1A429CC80012C873 /* LWCDataViewController.h */,
 				1B9885DF1A429CC80012C873 /* LWCDataViewController.m */,
 				1B9885E01A429CC80012C873 /* LWCDataViewController.xib */,
+				1BD48FCA1AD3806A007D6350 /* QrCodeGenerateViewController.h */,
+				1BD48FCB1AD3806A007D6350 /* QrCodeGenerateViewController.m */,
 				1B9885E11A429CC80012C873 /* LWCViewController.h */,
 				1B9885E21A429CC80012C873 /* LWCViewController.m */,
-				1B9885E31A429CC80012C873 /* LWCViewController.xib */,
 				1B9885E41A429CC80012C873 /* NSString+Separate.h */,
 				1B9885E51A429CC80012C873 /* NSString+Separate.m */,
 				1B9885E61A429CC80012C873 /* TransitData.h */,
@@ -561,6 +562,14 @@
 			path = ZYQAssetPickerController;
 			sourceTree = "<group>";
 		};
+		1BD48FC81AD375BF007D6350 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1BD48FC91AD375BF007D6350 /* Constant.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -640,11 +649,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9886541A429CC80012C873 /* LWCViewController.xib in Resources */,
 				1B9886621A429CC80012C873 /* zbar-back.png in Resources */,
 				1B9886341A429CC80012C873 /* qr_train.png in Resources */,
 				1B98862B1A429CC80012C873 /* navbar_button_close.png in Resources */,
-				1B98861F1A429CC80012C873 /* CheckInfoViewController.xib in Resources */,
 				1B9886411A429CC80012C873 /* scan_flash_off.png in Resources */,
 				1B9886641A429CC80012C873 /* zbar-helpicons.png in Resources */,
 				1B9886461A429CC80012C873 /* pick_bg@2x.png in Resources */,
@@ -721,6 +728,7 @@
 				1B98865B1A429CC80012C873 /* qrinput.c in Sources */,
 				1B9886231A429CC80012C873 /* HeaderView.m in Sources */,
 				1B98865D1A429CC80012C873 /* rscode.c in Sources */,
+				1BD48FCC1AD3806A007D6350 /* QrCodeGenerateViewController.m in Sources */,
 				1B9886581A429CC80012C873 /* mask.c in Sources */,
 				1B98865A1A429CC80012C873 /* qrencode.c in Sources */,
 				1B9886531A429CC80012C873 /* LWCViewController.m in Sources */,
@@ -861,6 +869,7 @@
 					"$(PROJECT_DIR)/ZBarSDK",
 					"$(PROJECT_DIR)/QrCodeDemo/QR_Code/ZBar/ZBarSDK",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "二维码扫描";
 				WRAPPER_EXTENSION = app;
 			};

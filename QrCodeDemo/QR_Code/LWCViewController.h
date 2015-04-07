@@ -11,6 +11,6 @@
 
 @interface LWCViewController : UIViewController<ZBarReaderViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,ZBarReaderDelegate>
 
-@property (strong,nonatomic)ZBarReaderView * readerView;
+@property (strong,nonatomic) ZBarReaderView * readerView;
 
 @end

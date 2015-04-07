@@ -15,7 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[LWCViewController alloc] initWithNibName:@"LWCViewController" bundle:nil];
+    self.viewController = [[LWCViewController alloc] init];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
 //    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
     self.window.rootViewController = self.navigationController;
