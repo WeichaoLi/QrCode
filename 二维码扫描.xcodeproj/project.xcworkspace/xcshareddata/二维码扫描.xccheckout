@@ -14,24 +14,36 @@
 		<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
 		<key>84823AB0-3232-408F-A6AF-6D54AC617290</key>
 		<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
+		<key>CCB26A8A818FE19DB6D49AE71C45DC35532D6767</key>
+		<string>https://github.com/WeichaoLi/QrCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>二维码扫描.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5F825C82CDC3AA934B29B7CE6436F2359302EF08</key>
-		<string>../..</string>
+		<string>../..Demo</string>
 		<key>84823AB0-3232-408F-A6AF-6D54AC617290</key>
-		<string>../.. 屏幕适配 3.5inch 和 4 inch</string>
+		<string>../..Demo 屏幕适配 3.5inch 和 4 inch</string>
+		<key>CCB26A8A818FE19DB6D49AE71C45DC35532D6767</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/WeichaoLi/QrCodeDemo.git</string>
+	<string>https://github.com/WeichaoLi/QrCode.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5F825C82CDC3AA934B29B7CE6436F2359302EF08</string>
+	<string>CCB26A8A818FE19DB6D49AE71C45DC35532D6767</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCB26A8A818FE19DB6D49AE71C45DC35532D6767</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QrCode</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

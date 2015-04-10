@@ -6,8 +6,14 @@
 //  Copyright (c) 2015年 LWC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "QrBaseViewController.h"
+#import "QRCodeGenerator.h"
 
-@interface QrCodeGenerateViewController : UIViewController
+@interface QrCodeGenerateViewController : QrBaseViewController {
+
+}
+
+@property (nonatomic, retain) NSString      *content;
+@property (nonatomic, retain) UIImageView   *imageView;
 
 @end

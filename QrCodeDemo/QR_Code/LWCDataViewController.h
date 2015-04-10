@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 LWC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "QrBaseViewController.h"
 #import <MessageUI/MessageUI.h>
 
-@interface LWCDataViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate>
+@interface LWCDataViewController : QrBaseViewController<UITableViewDelegate,UITableViewDataSource,MFMailComposeViewControllerDelegate,MFMessageComposeViewControllerDelegate>
 
 @property (nonatomic, copy) NSString *dataString;
 

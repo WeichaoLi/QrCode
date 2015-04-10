@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 LWC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "ZBarSDK.h"
+#import "QrBaseViewController.h"
 
-@interface LWCViewController : UIViewController<ZBarReaderViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,ZBarReaderDelegate>
+@interface LWCViewController : QrBaseViewController<ZBarReaderViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,ZBarReaderDelegate>
 
 @property (strong,nonatomic) ZBarReaderView * readerView;
 
